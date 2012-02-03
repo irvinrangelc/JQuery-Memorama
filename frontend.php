@@ -1,5 +1,10 @@
 <?php
-//Setup variables
+//////////////////////////////////*
+//	Inherit JQuery Memorama ver 1.0
+//	
+//
+//
+//*/
 $images = array(
 	1=> array(
 		"src"=>"honguita.jpg",
