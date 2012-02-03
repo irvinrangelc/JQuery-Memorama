@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background:url(../img/sky.gif) repeat-x #DCF5F8;
+}
+h1{
+	color:#55BAC6;
+	display:block;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size:28px;
+	margin-top:10px;
+}
+h2{
+	color:#FFFFFF;
+	display:block;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size:14px;
+	text-transform: uppercase;
+}
+ul{
+	list-style:none;
+}
+#header{
+	display:block;
+	padding:20px 0px;
+	width:100%;
+	vertical-align:middle;
+}
+#header img{
+	display:block;
+	margin-left:100px;
+}
+#header .content{
+	display:block;
+	margin:auto;
+	width:960px;
+}
+#mainbox{
+	display:block;
+	margin:auto;
+	width:960px;
+}
+#footer,
+#footer .footer-grass,
+#footer .footer-content{
+	display:block;
+	float:left;
+	width:100%;
+}
+#footer{
+	height:200px;
+	position:relative;
+}
+#footer .footer-grass{
+	position:absolute;
+	top:0px;
+	height:49px;
+	background:url(../img/grass.png) repeat-x top;
+}
+#footer .footer-content{
+	background:#63BE6A;
+	height:151px;
+	position:absolute;
+	top:49px;
+	width:100%;
+}
+#footer .footer-text{
+	margin:auto;
+	width:960px;
+	text-align:center;
+}
+#footer .footer-text .copy{
+	color:#FFFFFF;
+	display:block;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	margin-top:15px;
+	width:960px;
+}
+#footer .footer-text .copy a{
+	color:#FFFFFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+#footer .footer-text ul{
+	display:block;
+	margin:auto;
+	width:960px;
+}
+#footer .footer-text ul li{
+	display:block;
+	float:left;
+	margin:0 10%;
+}
+#footer .footer-text ul h3{
+	color:#4B9952;
+	font-size:20px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+}

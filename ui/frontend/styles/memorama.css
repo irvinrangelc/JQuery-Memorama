@@ -1,0 +1,36 @@
+/*///////////////////////////////
+//
+//	MAIN CLASSES
+//
+/////////////////////////////*/
+.floatLeft{
+	display: block;
+	float:left;
+}
+.floatRight{
+	display: block;
+	float:right;
+}
+.item{
+	display: block;
+}
+.item.off{
+	display: none;
+}
+.item img{
+	display: block;
+	width: 80px;
+}
+.memorama{
+	display: block;
+	margin-bottom:20px;
+}
+.wrapper-item{
+	background:#55BAC6;
+	display: block;
+	height:auto;	
+	min-height: 150px;
+	margin: 10px 10px 0 0;
+	padding: 20px;
+	width: 80px;
+}
