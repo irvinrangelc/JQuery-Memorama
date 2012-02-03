@@ -1,0 +1,12 @@
+INHERIT JQUERY MEMORAMA
+-Memorama utilizando la libreria JQuery.
+-Una sola colecci—n de cartas.
+-Las cartas se distribuyen aleatoriamente en cada inicio.
+-Un solo nivel.
+-No se contabiliza el numero de clics.
+-No se contabiliza el tiempo de soluci—n.
+
+Siguientes versiones contendr‡n:
+-Contabilizar el numero de clics
+-Contabilizar el tiempo de soluci—n
+-Mœltiples colecciones de cartas
