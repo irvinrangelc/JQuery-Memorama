@@ -1,6 +1,6 @@
 <?php
 //////////////////////////////////*
-//	Inherit JQuery Memorama ver 1.0
+//	Inherit JQuery Memorama ver 1.1
 //	
 //
 //
@@ -48,23 +48,23 @@ function aleatorio($variable){
 }
 $items = array_merge(aleatorio($images) , aleatorio($images));
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Inherit. Memorama Versi&oacute;n 1.0</title>
-<link href="/ui/frontend/styles/general.css" type="text/css" rel="stylesheet" media="screen"/>
-<link href="/ui/frontend/styles/memorama.css" type="text/css" rel="stylesheet" media="screen"/>
+<link href="ui/frontend/styles/general.css" type="text/css" rel="stylesheet" media="screen"/>
+<link href="ui/frontend/styles/memorama.css" type="text/css" rel="stylesheet" media="screen"/>
 <link rel="shortcut icon" href="/favicon.png" type="image/png">
 
-<script type="text/javascript" src="/ui/frontend/scripts/jquery.min.js"></script>
-<script type="text/javascript" src="/ui/frontend/scripts/jquery.ui.min.js"></script>
-<script type="text/javascript" src="/ui/frontend/scripts/inherit.functions.js"></script>
+<script type="text/javascript" src="ui/frontend/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="ui/frontend/scripts/jquery.ui.min.js"></script>
+<script type="text/javascript" src="ui/frontend/scripts/inherit.functions.js"></script>
 </head>
 <body>
 <div id="header">
 	<div class="content">
-		<h1>Memorama JQuery. Versi&oacute;n 1.0</h1>
+		<h1>Memorama JQuery. Versi&oacute;n 1.1</h1>
 	</div>
 </div>
 <div id="mainbox">
@@ -73,7 +73,7 @@ $items = array_merge(aleatorio($images) , aleatorio($images));
 		foreach($items as $item=>$value){
 		?>
 			<div class="wrapper-item floatLeft" id="item<?=$item?>">
-				<div class="item floatLeft off active"><img src="/ui/frontend/img/letters/<?=$value["src"]?>" title="<?=$value["title"]?>"/></div>
+				<div class="item floatLeft off active"><img src="./ui/frontend/img/letters/<?=$value["src"]?>" title="<?=$value["title"]?>"/></div>
 			</div>
 		<?php
 		}
